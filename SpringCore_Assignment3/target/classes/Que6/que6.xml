@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="enames" class="Que6.NameBean">
+	<property name="names">
+	<array value-type="java.lang.String">
+	<value>ajinkya shitole</value>
+	<value>prakash chavhan</value>
+	<value>abhishek ghodke</value>
+	<value>Pryty Singh</value>
+	</array>
+	</property>
+	</bean>
+
+</beans>
