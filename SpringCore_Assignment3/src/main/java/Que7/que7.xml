@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean id="array1" class= "Que7.Array2">
+		<constructor-arg>
+			<array>
+				<value>10</value>
+				<value>20</value>
+				<value>30</value>
+				<value>40</value>
+				<value>50</value>
+				<value>60</value>
+				<value>70</value>
+			</array>
+		</constructor-arg>
+	</bean>
+	<bean id="array2" class="Que7.Array1">
+		<constructor-arg>
+			<array>
+				<value>1</value>
+				<value>2</value>
+				<value>3</value>
+				<value>4</value>
+				<value>5</value>
+				<value>6</value>
+				<value>7</value>
+			</array>
+		</constructor-arg>
+		<constructor-arg ref="array1"></constructor-arg>
+	</bean>
+	</beans>
